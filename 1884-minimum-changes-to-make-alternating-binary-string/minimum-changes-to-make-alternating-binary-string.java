@@ -6,9 +6,7 @@ class Solution {
             if(s.charAt(i)!=(i%2==0?'0':'1')){
                 c0++;
             }
-            if(s.charAt(i)!=(i%2==0?'1':'0')){
-                c1++;
-            }
+            else c1++;
         }
         return Math.min(c0,c1);
     }
